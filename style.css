@@ -1,0 +1,50 @@
+body {
+    padding: 20px 100px;
+    text-align: left;
+}
+
+header {
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 500;
+}
+.grid-headline {
+    text-decoration: underline;
+    text-align: center;
+    font-weight: 700;
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+    width: fit-content;
+    margin: 0px auto;
+}
+
+.details {
+    width: 150px;
+    height: 190px;
+    word-wrap: break-word;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    transition: transform 210ms ease-in;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+button {
+    width: 150px;
+    padding: 8px 37px;
+    background-color: green;
+    color: white;
+    border: none;
+}

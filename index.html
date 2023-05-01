@@ -6,107 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab Report -02</title>
-    <style>
-        body {
-            padding: 20px 100px;
-            text-align: left;
-        }
-
-        header {
-            text-align: center;
-        }
-
-        p {
-            font-size: 15px;
-            font-weight: 500;
-        }
-
-        ol {
-            padding-left: 15px;
-        }
-
-        .grid-headline {
-            text-decoration: underline;
-            text-align: center;
-            font-weight: 700;
-        }
-
-        .Grid {
-            display: grid;
-            grid-template-columns: repeat(6, 1fr);
-            gap: 10px;
-        }
-
-        .details {
-            height: 350px;
-        }
-
-        img {
-            height: 150px;
-            width: 150px;
-            transition: transform 210ms ease-in;
-        }
-
-        img:hover {
-            transform: scale(1.2);
-        }
-
-        button {
-            padding: 8px 37px;
-            background-color: green;
-            color: white;
-            border: none;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <header>
-        <h2>Lab Report -02</h1>
-            <h2>Problem Statement</h2>
-    </header>
-    <div>
-        <p>In this task, you have to create a photo gallery of the faculty profile of the Green University of Bangladesh
-            using HTML and CSS. You have to show a total of 12 faculty images to create this photo gallery. In this
-            experiment, it will show six images side by side</p>
-    </div>
-    <div>
-        <ol type="a">
-            <li>
-                <p>For showing the description of each faculty you have to use the font size 15px, text- align=left.</p>
-            </li>
-            <li>
-                <p>You have to use padding/grid-gap to show the space between the two images</p>
-            </li>
-            <li>
-                <p>You have to show the name, designation, and email address of each faculty in the description field
-                </p>
-            </li>
-            <li>
-                <p>To show the "View Profile" button.</p>
-            </li>
-            <li>
-                <p>The faculty images should be clickable which means when we click an image of a faculty the image
-                    should
-                    be focused and should be shown a bit larger.</p>
-            </li>
-            <li>
-                <p>You can use any of the 12 GUB faculty's images to create this photo gallery.</p>
-            </li>
-        </ol>
-    </div>
-    <h2 class="grid-headline">Sample Output Window</h2>
+    <h2 class="grid-headline">Faculty Members</h2>
     <div class="Grid">
-        <div class="details">
-            <a href="">
-                <div class="img">
-                    <img src="./IMG-20230425-WA0001.jpg" alt="">
-                </div>
-            </a>
-            <div>
-                <h5>Md. Mahdi Hasan</h5>
-                <p>Senior Lecturer</p>
-                <p>abdcdef.ghi@gmail.com</p>
+        <div>
+            <div class="img">
+                <img src="./images/342000554_1014841972837822_3931984852977826110_n.png" alt="">
+            </div>
+            <div class="details">
+                <h5>PROF. DR. MD. SAIFUL AZAD</h5>
+                <p>Chairman and Professor</p>
+                <p>Email - chairman@cse.green.edu.bd</p>
             </div>
             <div>
                 <button>
@@ -114,14 +27,14 @@
                 </button>
             </div>
         </div>
-        <div class="details">
+        <div>
             <div class="img">
-                <img src="./IMG-20230425-WA0001.jpg" alt="">
+                <img src="./images/342067271_768195518087564_5109132787667408912_n.png" alt="">
             </div>
-            <div>
-                <h5>Md. Mahdi Hasan</h5>
-                <p>Senior Lecturer</p>
-                <p>abdcdef.ghi@gmail.com</p>
+            <div class="details">
+                <h5>PROF. DR. MD. ZAHIDUL ISLAM</h5>
+                <p>Professor</p>
+                <p>Email - zahid@cse.green.edu.bd</p>
             </div>
             <div>
                 <button>
@@ -129,14 +42,14 @@
                 </button>
             </div>
         </div>
-        <div class="details">
+        <div>
             <div class="img">
-                <img src="./IMG-20230425-WA0001.jpg" alt="">
+                <img src="./images/342154352_909317746961516_872232092125814800_n.png" alt="">
             </div>
-            <div>
-                <h5>Md. Mahdi Hasan</h5>
-                <p>Senior Lecturer</p>
-                <p>abdcdef.ghi@gmail.com</p>
+            <div class="details">
+                <h5>MR. SYED AHSANUL KABIR</h5>
+                <p>Associate Chairperson of CSE & Associate Professor</p>
+                <p>Email - kabir@cse.green.edu.bd</p>
             </div>
             <div>
                 <button>
@@ -144,14 +57,14 @@
                 </button>
             </div>
         </div>
-        <div class="details">
+        <div>
             <div class="img">
-                <img src="./IMG-20230425-WA0001.jpg" alt="">
+                <img src="./images/342077985_531700812287577_3733343348735830236_n.png" alt="">
             </div>
-            <div>
-                <h5>Md. Mahdi Hasan</h5>
-                <p>Senior Lecturer</p>
-                <p>abdcdef.ghi@gmail.com</p>
+            <div class="details">
+                <h5>DR. MD. MOSTAFIJUR RAHMAN</h5>
+                <p>Associate Professor</p>
+                <p>Email - mostafijur@cse.green.edu.bd</p>
             </div>
             <div>
                 <button>
@@ -159,14 +72,14 @@
                 </button>
             </div>
         </div>
-        <div class="details">
+        <div>
             <div class="img">
-                <img src="./IMG-20230425-WA0001.jpg" alt="">
+                <img src="./images/342070540_188854343986169_7819724633757328338_n.png" alt="">
             </div>
-            <div>
-                <h5>Md. Mahdi Hasan</h5>
-                <p>Senior Lecturer</p>
-                <p>abdcdef.ghi@gmail.com</p>
+            <div class="details">
+                <h5>DR. MUHAMMAD AMINUR RAHAMAN</h5>
+                <p>Associate Professor and Campus Director, Permanent Campus</p>
+                <p>Email - aminur@cse.green.edu.bd</p>
             </div>
             <div>
                 <button>
@@ -174,14 +87,14 @@
                 </button>
             </div>
         </div>
-        <div class="details">
+        <div>
             <div class="img">
-                <img src="./IMG-20230425-WA0001.jpg" alt="">
+                <img src="./images/342063939_6686882958007937_9151665177005279616_n.png" alt="">
             </div>
-            <div>
-                <h5>Md. Mahdi Hasan</h5>
-                <p>Senior Lecturer</p>
-                <p>abdcdef.ghi@gmail.com</p>
+            <div class="details">
+                <h5>DR. MUHAMMAD ABUL HASAN</h5>
+                <p>Associate Professor Dept. of CSE</p>
+                <p>Email - muhammad.hasan@cse.green.edu.bd</p>
             </div>
             <div>
                 <button>
@@ -189,14 +102,14 @@
                 </button>
             </div>
         </div>
-        <div class="details">
+        <div>
             <div class="img">
-                <img src="./IMG-20230425-WA0001.jpg" alt="">
+                <img src="./images/344027701_626941988908228_3126833068569847023_n.png" alt="">
             </div>
-            <div>
-                <h5>Md. Mahdi Hasan</h5>
-                <p>Senior Lecturer</p>
-                <p>abdcdef.ghi@gmail.com</p>
+            <div class="details">
+                <h5>MS. UMME RUMAN</h5>
+                <p>Assistant Professor</p>
+                <p>Email - ruman@cse.green.edu.bd</p>
             </div>
             <div>
                 <button>
@@ -204,14 +117,14 @@
                 </button>
             </div>
         </div>
-        <div class="details">
+        <div>
             <div class="img">
-                <img src="./IMG-20230425-WA0001.jpg" alt="">
+                <img src="./images/342069018_959775652044782_649623010214399986_n.png" alt="">
             </div>
-            <div>
-                <h5>Md. Mahdi Hasan</h5>
-                <p>Senior Lecturer</p>
-                <p>abdcdef.ghi@gmail.com</p>
+            <div class="details">
+                <h5>MR. TAMIM AL MAHMUD</h5>
+                <p>Assistant Professor & Program Coordinator of Evening Program</p>
+                <p>Email - tamim@cse.green.edu.bd</p>
             </div>
             <div>
                 <button>
@@ -219,14 +132,15 @@
                 </button>
             </div>
         </div>
-        <div class="details">
+        <div>
             <div class="img">
-                <img src="./IMG-20230425-WA0001.jpg" alt="">
+                <img src="./images/341989995_211740568266566_2484473367844200000_n.png" alt="">
             </div>
-            <div>
-                <h5>Md. Mahdi Hasan</h5>
-                <p>Senior Lecturer</p>
-                <p>abdcdef.ghi@gmail.com</p>
+            <div class="details">
+                <h5>MS. SHAMIMA AKTER</h5>
+                <p>Assistant Professor</p>
+                <p>Email - shamima_akter@cse.green.edu.bd</p>
+
             </div>
             <div>
                 <button>
@@ -234,14 +148,14 @@
                 </button>
             </div>
         </div>
-        <div class="details">
+        <div>
             <div class="img">
-                <img src="./IMG-20230425-WA0001.jpg" alt="">
+                <img src="./images/341998404_1413280026170631_8328757929266585290_n.png" alt="">
             </div>
-            <div>
-                <h5>Md. Mahdi Hasan</h5>
-                <p>Senior Lecturer</p>
-                <p>abdcdef.ghi@gmail.com</p>
+            <div class="details">
+                <h5>MD. SOLAIMAN MIA</h5>
+                <p>Assistant Professor and Assistant Director of Student Affairs for GUB Permanent Campus</p>
+                <p>Email - solaiman@cse.green.edu.bd</p>
             </div>
             <div>
                 <button>
@@ -249,14 +163,14 @@
                 </button>
             </div>
         </div>
-        <div class="details">
+        <div>
             <div class="img">
-                <img src="./IMG-20230425-WA0001.jpg" alt="">
+                <img src="./images/342075272_1264402677804717_4923682492679200536_n (1).png" alt="">
             </div>
-            <div>
-                <h5>Md. Mahdi Hasan</h5>
-                <p>Senior Lecturer</p>
-                <p>abdcdef.ghi@gmail.com</p>
+            <div class="details">
+                <h5>MS. SUMAIYA KABIR</h5>
+                <p>Assistant Professor</p>
+                <p>Email - sumaiya@cse.green.edu.bd</p>
             </div>
             <div>
                 <button>
@@ -264,14 +178,14 @@
                 </button>
             </div>
         </div>
-        <div class="details">
+        <div>
             <div class="img">
-                <img src="./IMG-20230425-WA0001.jpg" alt="">
+                <img src="./images/342014056_6448945701793210_8388707999077409335_n.png" alt="">
             </div>
-            <div>
-                <h5>Md. Mahdi Hasan</h5>
-                <p>Senior Lecturer</p>
-                <p>abdcdef.ghi@gmail.com</p>
+            <div class="details">
+                <h5>MS. TANPIA TASNIM</h5>
+                <p>Program Coordinator (Evening Program) & Lecturer</p>
+                <p>Email - tanpia@cse.green.edu.bd</p>
             </div>
             <div>
                 <button>
