@@ -11,6 +11,7 @@ p {
     font-size: 15px;
     font-weight: 500;
 }
+
 .grid-headline {
     text-decoration: underline;
     text-align: center;
@@ -37,9 +38,6 @@ img {
     transition: transform 210ms ease-in;
 }
 
-img:hover {
-    transform: scale(1.2);
-}
 
 button {
     width: 150px;
@@ -47,4 +45,13 @@ button {
     background-color: green;
     color: white;
     border: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
 }
